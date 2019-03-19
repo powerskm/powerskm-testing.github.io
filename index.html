@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Conference Registration</title>
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+		<article>
+		<h1>Interactive Design Conference</h1>
+			<section>
+				<form action="second.html" get="firstName"> 
+					<fieldset  name="personal" id="personal">
+						<label for="firstName">
+							First Name:
+						</label>
+						<input type="text" name="firstName" id="firstName"/> <br>
+						<label for="lastName">
+							Last Name:
+						</label>	
+						<input type="text" name="lasttName" id="lastName"/>
+					</fieldset>
+					<fieldset name="address" id="address">
+						<label for="address1">
+							Address Line 1: 
+						</label>
+						<input type="text" name="address1" id="address1"/> <br>
+						<label for="address2">
+							Address Line 2:
+						</label>
+						<input type="text" name="address2" id="address2"/> <br>
+						<label for="city">
+							City:
+						</label>
+						<input type="text" name="city" id="city"/> <br>
+						<label for="zip">
+							Zip Code:
+						</label>
+						<input type="text" name="zip" id="zip"/> <br>
+					</fieldset>
+					<fieldset name="session" id="session">
+						<h3> Please Check All the Sessions you are Planning on Attending:</h3>
+						<input type="checkbox" name="html" value="html">
+						<label for="html">
+							HTML5
+						</label> <br>
+						<input type="checkbox" name="css" value="css">
+						<label for="css">
+							CSS3
+						</label> <br>
+						<input type="checkbox" name="javaScript" value="javaScript">
+						<label for="javaScript">
+							JavaScript
+						</label> <br>
+					</fieldset>
+					<fieldset name="location" id="location">
+						<h3> Please Select your Conference Location: </h3>
+						<input type="radio" name="loc" value="usa">
+						<label for="usa">
+							USA
+						</label> <br>
+						<input type="radio" name="loc" value="london">
+						<label for="london">
+							London
+						</label> <br>
+						<input type="radio" name="loc" value="tokyo">
+						<label for="tokyo">
+							Tokyo
+						</label> <br>
+					</fieldset>
+					<br>
+					<input type="submit" value="Submit"/>
+				</form>
+			</section>
+		</article> 
+    </body>
+</html>
